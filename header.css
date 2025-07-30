@@ -1,0 +1,37 @@
+.text-header-size {
+    width: 85px;
+    height: 85px;
+    padding: 1px 1px 1px 1px;
+}
+
+.language-icons img {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    height:24px
+}
+
+.language-icons img:hover {
+    transform: scale(1.1);
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    font-size: 15px !important; 
+    letter-spacing: 1px;
+    background-color: rgba(35, 132, 255, 30%);
+}
+
+.navbar li a, navbar .navbar-brand {
+        color: white;
+        text-shadow: 1px 1px 2px black;
+        font-family: 'Lucida Sans Unicode';
+}
+
+.navbar-nav .nav-link.active {
+   font-weight: 500;
+}
+
+.nav-link:hover{
+    color: #003366 !important; 
+}
