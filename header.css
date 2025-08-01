@@ -18,10 +18,19 @@
     min-width: 320px;
     margin-bottom: 0;
     border: 0;
-    font-size: 15px !important; 
+    font-size: 15px !important;
     letter-spacing: 1px;
     background-color: rgba(35, 132, 255, 30%);
+    padding: 0.5rem 1rem;
 }
+    .navbar .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px; /* ou 1140px, depende do teu design */
+        margin: 0 auto;
+        width: 100%;
+    }
 
 .navbar li a, navbar .navbar-brand {
         color: white;
@@ -32,6 +41,16 @@
 .navbar-nav .nav-link.active {
    font-weight: 500;
 }
+
+.navbar-nav {
+    display: flex;
+    gap: 1rem;
+}
+
+    .navbar-nav .nav-link {
+        color: white;
+        text-shadow: 1px 1px 2px black;
+    }
 
 .nav-link:hover{
     color: #003366 !important; 
@@ -69,3 +88,20 @@
     color: white !important;
     margin-right: 0.25rem;
   }
+
+.header-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.content-container {
+    max-width: 1200px; /* ou o que estiveres a usar para o retângulo branco */
+    margin: 0 auto;
+    width: 100%;
+}

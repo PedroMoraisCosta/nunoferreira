@@ -1,56 +1,59 @@
 <header>
-    <!-- BAR 1  -->
-    <nav class="navbar-top navbar-expand-lg navbar-light fixed-top h-50px">
-    <form class="form-inline mt-1 ms-1">
-        <a href="tel:+351910857380" class="btn-navbar" type="button">
-            <i class="bi bi-telephone me-1"></i> +351 910 857 380
-        </a>
-        <a href="mailto:geral@nuno-ferreira.pt" class="btn-navbar ms-2" type="button">
-            <i class="bi bi-envelope me-1"></i> geral@nuno-ferreira.pt
-        </a>
-    </form>
+<div class="content-container">
+    <nav class="navbar-top navbar-expand-lg navbar-light h-50px">
+        <form class="form-inline mt-1 ms-1">
+            <a href="tel:+351910857380" class="btn-navbar" type="button">
+                <i class="bi bi-telephone me-1"></i> +351 910 857 380
+            </a>
+            <a href="mailto:geral@nuno-ferreira.pt" class="btn-navbar ms-2" type="button">
+                <i class="bi bi-envelope me-1"></i> geral@nuno-ferreira.pt
+            </a>
+        </form>
     </nav>
-    <!-- BAR 2  -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top mt-50px">
-                <div class="container-fluid d-flex align-items-center justify-content-between">
+</div>
+<!-- BAR 2 -->
+<!-- Barra de navegação -->
+<div class="content-container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid d-flex align-items-center justify-content-between">
+            <a href="index.html#home">
+                <img class="text-header-size" src="./assets/images/logo.webp" title="nuno-ferreira">
+            </a>
 
-                    <a  href="index.html#home">
-                        <img class="text-header-size" src="./assets/images/logo.webp" title="nuno-ferreira">
-                    </a>
-                    
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end text-uppercase nav-panel" id="menuNavbar">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="menuNavbar">
 
-                        <ul class="navbar-nav move-right">
-                            <li class="nav-item nav-border-bottom">
-                                <a class="nav-link" href="index.html#home" data-i18n="home">INÍCIO</a>
-                            </li>
-                            <li class="nav-item nav-border-bottom">
-                                <a class="nav-link" href="company.html" data-i18n="company">A EMPRESA</a>
-                            </li>
-                            <li class="nav-item nav-border-bottom">
-                                <a class="nav-link" href="services.html" data-i18n="services">SERVIÇOS</a>
-                            </li>
-                            <li class="nav-item nav-border-bottom">
-                                <a class="nav-link" href="projects.html" data-i18n="projects">PROJETOS</a>
-                            </li>
-                             <li class="nav-item nav-border-bottom">
-                                <a class="nav-link" href="social.html" data-i18n="social">IMPACTO SOCIAL</a>
-                            </li>
-                             <li class="nav-item nav-border-bottom">
-                                <a class="nav-link" href="contacts.html" data-i18n="contacts">CONTATOS</a>
-                            </li>
-                        </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item nav-border-bottom">
+                        <a class="nav-link" href="index.html#home" data-i18n="home">INÍCIO</a>
+                    </li>
+                    <li class="nav-item nav-border-bottom">
+                        <a class="nav-link" href="company.html" data-i18n="company">A EMPRESA</a>
+                    </li>
+                    <li class="nav-item nav-border-bottom">
+                        <a class="nav-link" href="services.html" data-i18n="services">SERVIÇOS</a>
+                    </li>
+                    <li class="nav-item nav-border-bottom">
+                        <a class="nav-link" href="projects.html" data-i18n="projects">PROJETOS</a>
+                    </li>
+                    <li class="nav-item nav-border-bottom">
+                        <a class="nav-link" href="social.html" data-i18n="social">IMPACTO SOCIAL</a>
+                    </li>
+                    <li class="nav-item nav-border-bottom">
+                        <a class="nav-link" href="contacts.html" data-i18n="contacts">CONTATOS</a>
+                    </li>
+                </ul>
 
-                        <a class="navbar-brand align-items-center me-3" href="#">
-                            <div class="language-icons align-items-center move-right">
-                                <img src="./assets/languages/pt.png" alt="Português" class="me-2" onclick="loadLanguage('pt')">
-                                <img src="./assets/languages/en.png" alt="English" onclick="loadLanguage('en')">
-                            </div>
-                        </a>
+                <a class="navbar-brand align-items-center me-3" href="#">
+                    <div class="language-icons align-items-center move-right">
+                        <img src="./assets/languages/pt.png" alt="Português" class="me-2" onclick="loadLanguage('pt')">
+                        <img src="./assets/languages/en.png" alt="English" onclick="loadLanguage('en')">
                     </div>
-                </div>
-            </nav>
+                </a>
+            </div>
+        </div>
+    </nav>
+</div>
 </header>
