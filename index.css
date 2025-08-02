@@ -31,7 +31,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 300px; /* Ajusta conforme o necessário */
+    height: 300px; /* Ajusta conforme o necessï¿½rio */
     width: 100%;
     display: flex;
     align-items: center;
@@ -39,4 +39,9 @@ body {
     text-align: center;
     color: white;
     text-shadow: 1px 1px 4px black;
+}
+
+/*Titulos em forma de botao*/
+.title-button{
+
 }
