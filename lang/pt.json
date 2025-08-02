@@ -1,8 +1,13 @@
 {
-    "home": "início",
-    "company":"a empresa",
-    "services":"serviços",
-    "projects":"projetos",
+    "home": "Início",
+    "company":"A Empresa",
+    "services":"Serviços",
+    "projects":"Projetos",
     "social":"Impacto social",
-    "contacts":"contatos"
+    "contacts":"Contatos",
+    "time":"Horário",
+    "timeweek":"Segunda a Sexta: 09:00 - 17:30",
+    "timesaturday":"Sábado: Encerrado",
+    "timesunday":"Domingo: Encerrado",
+    "contactsfooter":"Contatos"
 } 

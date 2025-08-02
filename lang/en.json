@@ -2,8 +2,12 @@
     "home": "Home",
     "company":"Company",
     "services":"Services",
-    "projects":"projects",
+    "projects":"Projects",
     "social":"Social",
-    "contacts":"contacts"
-  
+    "contacts":"Contacts",
+    "time":"Working Hours",
+    "timeweek":"Monday to Friday: 09:00 - 17:30",
+    "timesaturday":"Saturday: Closed",
+    "timesunday":"Sunday: Closed",
+    "contactsfooter":"Contact Details"
 } 
