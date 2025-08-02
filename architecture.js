@@ -47,6 +47,15 @@ document.addEventListener('DOMContentLoaded', function () {
       })
   }
 
+  const socialsectionEl = document.getElementById('social-section-placeholder')
+  if (socialsectionEl) {
+    fetch('social-section.html')
+      .then(res => res.text())
+      .then(data => {
+        socialsectionEl.innerHTML = data
+      })
+  }
+
   fetch('footer.html')
     .then(res => res.text())
     .then(
