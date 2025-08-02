@@ -36,6 +36,17 @@ document.addEventListener('DOMContentLoaded', function () {
       })
   }
 
+  const projectsectionEl = document.getElementById(
+    'projects-section-placeholder'
+  )
+  if (projectsectionEl) {
+    fetch('projects-section.html')
+      .then(res => res.text())
+      .then(data => {
+        projectsectionEl.innerHTML = data
+      })
+  }
+
   fetch('footer.html')
     .then(res => res.text())
     .then(
