@@ -14,6 +14,17 @@ document.addEventListener('DOMContentLoaded', function () {
       })
   }
 
+  const companySectionEl = document.getElementById(
+    'company-section-placeholder'
+  )
+  if (companySectionEl) {
+    fetch('company-section.html')
+      .then(res => res.text())
+      .then(data => {
+        companySectionEl.innerHTML = data
+      })
+  }
+
   fetch('footer.html')
     .then(res => res.text())
     .then(
