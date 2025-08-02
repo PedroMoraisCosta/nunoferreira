@@ -25,6 +25,17 @@ document.addEventListener('DOMContentLoaded', function () {
       })
   }
 
+  const servicesectionEl = document.getElementById(
+    'services-section-placeholder'
+  )
+  if (servicesectionEl) {
+    fetch('services-section.html')
+      .then(res => res.text())
+      .then(data => {
+        servicesectionEl.innerHTML = data
+      })
+  }
+
   fetch('footer.html')
     .then(res => res.text())
     .then(
