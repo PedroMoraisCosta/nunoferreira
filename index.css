@@ -26,6 +26,11 @@ body {
     padding-right: 0px;
 }
 
+.row{
+    margin-left: 0px !important;
+    width: 100%;
+}
+
 .banner {
     background-image: url('./assets/images/hero-image.jpg'); /* Caminho da imagem */
     background-size: cover;
@@ -43,5 +48,13 @@ body {
 
 /*Titulos em forma de botao*/
 .title-button{
-
+ background-color: #3e5b75; /* Dark blue */
+  color: white;              /* White text */
+  padding: 10px 20px;        /* Space around text */
+  text-align: center;        /* Center text horizontally */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  width: fit-content;        /* Shrinks to fit the text */
+  border-radius: 2px; 
 }

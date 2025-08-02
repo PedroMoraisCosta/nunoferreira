@@ -1,0 +1,7 @@
+.phone-number {
+  font-family: 'Georgia', serif;  /* or Times New Roman, or another serif */
+  font-weight: bold;
+  font-size: 24px;               /* Adjust as needed */
+  letter-spacing: 2px;           /* Controls spacing between digits */
+  color: black;
+}
