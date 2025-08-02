@@ -56,6 +56,17 @@ document.addEventListener('DOMContentLoaded', function () {
       })
   }
 
+  const contactsectionEl = document.getElementById(
+    'contacts-section-placeholder'
+  )
+  if (socialsectionEl) {
+    fetch('contacts-section.html')
+      .then(res => res.text())
+      .then(data => {
+        contactsectionEl.innerHTML = data
+      })
+  }
+
   fetch('footer.html')
     .then(res => res.text())
     .then(
