@@ -7,7 +7,6 @@ body {
     overflow-x: hidden;
     min-width: 320px;
     background-color: #0a0a2a; /* azul escuro */
-    font-family: sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -18,7 +17,7 @@ body {
     width: 100%;
     margin: 0 auto;
     background-color: white;
-    min-height: 100vh;
+    /* min-height: 100vh; Comentado porque na pagina do servico adiciona espaco em ecra grande à parte de baixo da imagem e do nr. de telemovel*/ 
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -46,15 +45,15 @@ body {
     text-shadow: 1px 1px 4px black;
 }
 
-/*Titulos em forma de botao*/
 .title-button{
- background-color: #3e5b75; /* Dark blue */
-  color: white;              /* White text */
-  padding: 10px 20px;        /* Space around text */
-  text-align: center;        /* Center text horizontally */
+ background-color: #3e5b75; 
+  color: white;              
+  padding: 10px 20px;        
+  text-align: center;        
   font-family: Arial, sans-serif;
   font-size: 16px;
   letter-spacing: 1px;
   width: fit-content;        /* Shrinks to fit the text */
   border-radius: 2px; 
+  margin: 0 auto;
 }
