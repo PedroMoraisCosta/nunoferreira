@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const contactsectionEl = document.getElementById(
     'contacts-section-placeholder'
   )
-  if (socialsectionEl) {
+  if (contactsectionEl) {
     fetch('contacts-section.html')
       .then(res => res.text())
       .then(data => {
