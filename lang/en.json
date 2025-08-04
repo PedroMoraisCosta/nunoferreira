@@ -21,5 +21,14 @@
     "orcamento_text8":"",
     "orcamento_text9":"Do you have any questions ?",
     "orcamento_text10":"Contact us",
-    "orcamento_text11":"now !"
+    "orcamento_text11":"now !",
+    "contactform-title":"Contact us form",
+    "contactform-name":"Name",
+    "contactform-email":"Email",
+    "contactform-phone":"Contact Number (optional)",
+    "contactform-subject":"Subject",
+    "contactform-message":"Your Message",
+    "contactform-send":"send",
+    "contactform-error":"mandatory",
+    "contactform-whatsapp-error": "Please send the message via email on a computer or use WhatsApp on your phone."
 } 

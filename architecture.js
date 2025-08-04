@@ -64,6 +64,7 @@ document.addEventListener('DOMContentLoaded', function () {
       .then(res => res.text())
       .then(data => {
         contactsectionEl.innerHTML = data
+        setupContactFormValidation()
       })
   }
 

@@ -1,0 +1,27 @@
+.label{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.text-input{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+button.btn {
+  display: inline-block !important;
+  width: auto !important;
+}
+
+.input-error-color {
+  border: 2px solid #dc3545 !important; 
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 0.875rem;
+  display: none;
+  margin-left: 1rem;
+}

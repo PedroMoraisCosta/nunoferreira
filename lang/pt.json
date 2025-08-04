@@ -21,6 +21,15 @@
     "orcamento_text8":"",
     "orcamento_text9":"Tem alguma dúvida ?",
     "orcamento_text10":"Fale connosco",
-    "orcamento_text11":"agora !"
+    "orcamento_text11":"agora !",
+    "contactform-title":"formulário de contato",
+    "contactform-name":"Nome",
+    "contactform-email":"Email",
+    "contactform-phone":"Telefone (opcional)",
+    "contactform-subject":"Assunto",
+    "contactform-message":"Mensagem",
+    "contactform-send":"enviar",
+    "contactform-error":"obrigatório",
+    "contactform-whatsapp-error": "Por favor, envie a mensagem via e-mail em um computador ou use o WhatsApp no seu celular."
 
 } 

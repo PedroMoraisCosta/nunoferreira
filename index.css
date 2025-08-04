@@ -57,4 +57,5 @@ body {
   width: fit-content;        /* Shrinks to fit the text */
   border-radius: 2px; 
   margin: 0 auto;
+  white-space: nowrap;
 }
