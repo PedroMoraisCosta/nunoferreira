@@ -30,5 +30,12 @@
     "contactform-message":"Your Message",
     "contactform-send":"send",
     "contactform-error":"mandatory",
-    "contactform-whatsapp-error": "Please send the message via email on a computer or use WhatsApp on your phone."
+    "contactform-whatsapp-error": "Please send the message via email on a computer or use WhatsApp on your phone.",
+    "company-equipa":"our team",
+    "company-intro": "is a company specialized in civil construction and renovation services, offering complete and personalized solutions for projects of all sizes.",
+    "company-setorPrivado": "Private sector services account for around 65% of our work, both in construction and in the renovation of urban buildings and homes. We also perform subcontracted work.",
+    "company-social": "We act with social responsibility, mainly in the municipality of Matosinhos, supporting various social causes and local organizations.",
+    "company-qualidade": "With an experienced and highly qualified technical team, Nuno Ferreira - Construction and Renovation Unipessoal, LDA stands out for excellence in every project, ensuring quality, deadline compliance, and attention to detail.",
+    "company-formacao": "We constantly invest in training our professionals and modernizing our equipment to effectively meet industry demands and the particularities of each project. The trust of our clients reflects the commitment we maintain to innovation, safety, and sustainability."
+    
 } 
