@@ -40,7 +40,7 @@ function setupContactFormValidation () {
 
       if (isMobileDevice()) {
         hideFormError()
-        sendWhatsAppMessage({ name, email, subject, message })
+        SendWhatsApp({ name, email, subject, message })
       } else {
         showFormError()
       }
