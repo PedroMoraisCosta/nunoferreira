@@ -62,7 +62,51 @@
 
 .mt-50px{
      margin-top: 50px !important;
+
 }
+
+/* Botão “Avalie-nos” – igual ao mock */
+.btn-pill-blue {
+    background: #1677ff; /* azul forte do mock */
+    border: 1px solid #1677ff;
+    color: #fff;
+    height: 36px; /* mesma altura visual do exemplo */
+    padding: 0 16px; /* controlo de largura */
+    border-radius: 999px; /* cantos bem arredondados */
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; /* espaço entre texto e ícone */
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+    transition: background-color .15s, box-shadow .15s, border-color .15s;
+}
+
+    .btn-pill-blue:hover {
+        background: #146fe3; /* ligeiramente mais escuro no hover */
+        border-color: #146fe3;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .btn-pill-blue:active {
+        background: #0f5ec7;
+        border-color: #0f5ec7;
+    }
+
+    .btn-pill-blue:focus-visible {
+        box-shadow: 0 0 0 3px rgba(22,119,255,.35);
+        outline: 0;
+    }
+
+    /* ícone branco do lado direito */
+    .btn-pill-blue .bi-star-fill,
+    .btn-pill-blue .icon-star {
+        font-size: 16px; /* 16px como no mock */
+        color: #fff;
+        margin-left: 2px;
+    }
 
 .navbar-top {
     min-width: 320px;
