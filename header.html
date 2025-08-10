@@ -1,28 +1,46 @@
 <header>
     <div class="container">
         <nav class="navbar-top">
-            <div class="row d-flex justify-content-center justify-content-md-start">
-                <div class="col-lg-3 col-md-6 col-6">
-                    <a href="tel:+351910857380" class="btn-navbar me-3" type="button">
-                        <i class="bi bi-telephone me-1"></i>+351 910 857 380
-                    </a>
-                </div>
-                <div class="col-lg-8 col-md-6 col-6">
-                    <a href="mailto:geral@nuno-ferreira.pt" class="btn-navbar" type="button">
-                        <i class="bi bi-envelope me-1"></i>geral@nuno-ferreira.pt
-                    </a>
-                </div>
-                <div class="col-lg-1 col-md-6 col-6 pt-2 ps-1">
-                    <div class="language-icons d-flex">
-                        <img src="./assets/images/icon_whatsapp.png" alt="Português" style="max-width: 20px; max-height:15px" class="me-2" onclick="loadLanguage('pt')">
-                        <img src="./assets/languages/en.png" alt="English" style="max-width: 15px; max-height:15px" class="me-2" onclick="loadLanguage('en')">
-                        <img src="./assets/languages/pt.png" alt="Português" style="max-width: 15px; max-height:15px" class="me-2" onclick="loadLanguage('pt')">
-                        <img src="./assets/languages/en.png" alt="English" style="max-width: 15px; max-height:15px" class="me-3" onclick="loadLanguage('en')">
+                <div class="d-flex align-items-center justify-content-between flex-wrap">
+
+                    <!-- Telefone + Email (juntos) -->
+                    <div class="d-flex align-items-center gap-2 ms-3">
+                        <a href="tel:+351910857380" class="text-white text-decoration-none d-flex align-items-center">
+                            <i class="bi bi-telephone me-2 ms-1 mt-2"></i>
+                            <span class="small">+351 910 857 380</span>
+                        </a>
+
+
+                        <a href="mailto:geral@nuno-ferreira.pt" class="text-white text-decoration-none d-flex align-items-center">
+                            <i class="bi bi-envelope me-2 ms-3 mt-2"></i>
+                            <span class="small ps">geral@nuno-ferreira.pt</span>
+                        </a>
                     </div>
-                </div>
-                <!--wrapper ESQUERDA: telefone + email juntos
-                <div class="d-flex justify-content-center justify-content-md-start">
-                </div>-->
+
+                    <!-- Ícones à direita (largura auto + não corta) -->
+                    <div class="d-flex gap-1 me-2 mt-2">
+                        <!-- WhatsApp -->
+                        <a href="https://wa.me/351910857380" class="d-inline-flex align-items-center" aria-label="WhatsApp">
+                            <img src="./assets/images/whatsapp.png" alt="WhatsApp" width="22" height="22">
+                        </a>
+
+                        <!-- faceboock -->
+                        <button class="btn btn-sm p-0 border-0 d-inline-flex align-items-center" id="lang-pt" aria-label="Português">
+                            <img src="./assets/images/facebook.png" alt="Português" width="22" height="22">
+                        </button>
+
+                        <!-- youtube -->
+                        <button class="btn btn-sm p-0 border-0 d-inline-flex align-items-center" id="lang-en" aria-label="English">
+                            <img src="./assets/images/youtube.png" alt="English" width="22" height="22">
+                        </button>
+
+                        <!-- instagram -->
+                        <button  class="btn btn-sm p-0 border-0 d-inline-flex align-items-center" id="lang-en" aria-label="English">
+                            <img src="./assets/images/Instagram.png" alt="English" width="22" height="22" style="display:none;">
+                        </button>
+
+                    </div>
+
             </div>
         </nav>
     </div>
@@ -35,8 +53,8 @@
                     <img class="text-header-size" src="./assets/images/logo_nuno_ferreira_horizontal.png" title="nuno-ferreira">
                 </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Toggle navigation" style="background-color: white;">
+                    <span class="navbar-toggler-icon" ></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="menuNavbar">
 

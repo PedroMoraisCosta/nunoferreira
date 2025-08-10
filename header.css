@@ -66,6 +66,7 @@
 
 .navbar-top {
     min-width: 320px;
+    min-height: 35px;
     margin-bottom: 0;
     border: 0;
     font-size: 15px !important; 
