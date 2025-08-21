@@ -1,45 +1,46 @@
 .text-header-size {
     width: 100%;
-    height: 55px;
+    height: 45px;
     padding: 4px 4px 4px 4px;
 }
 
 .language-icons img {
     cursor: pointer;
     transition: transform 0.2s ease;
-    height:24px
+    height: 24px
 }
 
-.language-icons img:hover {
-    transform: scale(1.1);
-}
+    .language-icons img:hover {
+        transform: scale(1.1);
+    }
 
 .navbar {
     min-width: 320px;
     margin-bottom: 0;
     border: 0;
-    font-size: 15px !important;
+    font-size: 12px; /*!important;P*/
     letter-spacing: 1px;
     background-color: rgba(35, 132, 255, 30%);
     padding: 0px;
 }
+
     .navbar .container {
         display: flex;
-        justify-content: space-between;
+        /*justify-content: space-between;*/
         align-items: center;
         max-width: 1200px; /* ou 1140px, depende do teu design */
         margin: 0 auto;
         width: 100%;
     }
 
-.navbar li a, navbar .navbar-brand {
+    .navbar li a, navbar .navbar-brand {
         color: white;
-        text-shadow: 1px 1px 2px black;
+        /*text-shadow: 1px 1px 2px black;*/
         font-family: 'Lucida Sans Unicode';
-}
+    }
 
 .navbar-nav .nav-link.active {
-   font-weight: 500;
+    font-weight: 500;
 }
 
 .navbar-nav {
@@ -49,36 +50,35 @@
 
     .navbar-nav .nav-link {
         color: white;
-        text-shadow: 1px 1px 2px black;
+        /*text-shadow: 1px 1px 2px black;*/
     }
 
-.nav-link:hover{
-    color: #003366 !important; 
+.nav-link:hover {
+    color: lightslategray !important;
 }
 
 .h-50px {
-  height: 50px !important;
+    height: 50px !important;
 }
 
-.mt-50px{
-     margin-top: 50px !important;
-
+.mt-50px {
+    margin-top: 50px !important;
 }
 
-/* Botão “Avalie-nos” – igual ao mock */
+/* Botï¿½o ï¿½Avalie-nosï¿½ ï¿½ igual ao mock */
 .btn-pill-blue {
     background: #1677ff; /* azul forte do mock */
     border: 1px solid #1677ff;
     color: #fff;
-    height: 36px; /* mesma altura visual do exemplo */
-    padding: 0 16px; /* controlo de largura */
+    height: 25px; /* mesma altura visual do exemplo */
+    padding: 0 10px; /* controlo de largura */
     border-radius: 999px; /* cantos bem arredondados */
     display: inline-flex;
     align-items: center;
-    gap: 8px; /* espaço entre texto e ícone */
+    gap: 4px; /*espaï¿½o entre texto e ï¿½cone*/
     font-size: 12px;
-    font-weight: 600;
-    line-height: 1;
+    /* font-weight: 600; */
+    /* line-height: 1; */
     text-decoration: none;
     transition: background-color .15s, box-shadow .15s, border-color .15s;
 }
@@ -100,10 +100,10 @@
         outline: 0;
     }
 
-    /* ícone branco do lado direito */
+    /* ï¿½cone branco do lado direito */
     .btn-pill-blue .bi-star-fill,
     .btn-pill-blue .icon-star {
-        font-size: 16px; /* 16px como no mock */
+        font-size: 12px; /* 16px como no mock */
         color: #fff;
         margin-left: 2px;
     }
@@ -113,7 +113,7 @@
     min-height: 35px;
     margin-bottom: 0;
     border: 0;
-    font-size: 15px !important; 
+    font-size: 15px !important;
     letter-spacing: 1px;
     background-color: #0033A1;
 }
@@ -123,16 +123,16 @@
     border: none !important;
     color: white !important;
     padding: 0.375rem 0.75rem;
-    font-size: 0.875rem; 
+    font-size: 0.875rem;
     display: inline-flex;
     align-items: center;
     text-decoration: none;
-  }
+}
 
-  .btn-navbar i {
-    color: white !important;
-    margin-right: 0.25rem;
-  }
+    .btn-navbar i {
+        color: white; /*!important;*/
+        margin-right: 0.25rem;
+    }
 
 .header-container {
     max-width: 1200px;
@@ -143,10 +143,21 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
 }
+
 .content-container {
-    max-width: 1200px; /* ou o que estiveres a usar para o retângulo branco */
+    max-width: 1200px; /* ou o que estiveres a usar para o retï¿½ngulo branco */
     margin: 0 auto;
     width: 100%;
+}
+
+.navbar-toggler {
+    padding: 4px 6px; /* menos espaÃ§o interno */
+    font-size: 0.8rem; /* reduz Ã­cone */
+}
+
+.navbar-toggler-icon {
+    width: 20px; /* largura menor */
+    height: 20px; /* altura menor */
 }
