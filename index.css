@@ -99,3 +99,200 @@ body {
   line-height: 1.4;
 }
 
+
+/***********************************/
+
+
+
+/* ===== Section wrapper ===== */
+.nf-section {
+    padding: 28px 0 56px; /* fica ligeiramente abaixo da hero */
+    background: #fff;
+}
+
+/* ===== Feature cards ===== */
+.nf-features {
+    margin-top: 8px;
+}
+
+.nf-feature-card {
+    background: #f3f5f7;
+    border: 1px solid #eceff3;
+    border-radius: 16px;
+    padding: 18px 16px;
+    height: 100%;
+    box-shadow: 0 6px 18px rgba(18, 38, 63, .06);
+    transition: transform .15s ease, box-shadow .15s ease;
+}
+
+    .nf-feature-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 24px rgba(18,38,63,.08);
+    }
+
+.nf-feature-ico {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    background: #e9eefb;
+    color: #2b6dff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.nf-feature-title {
+    margin: 0 0 6px;
+    font-weight: 700;
+}
+
+.nf-feature-text {
+    margin: 0 0 8px;
+    color: #667085;
+    font-size: .95rem;
+}
+
+.nf-link {
+    font-weight: 600;
+    font-size: .85rem;
+    color: #2b6dff;
+    text-decoration: none;
+}
+
+    .nf-link:hover {
+        text-decoration: underline;
+    }
+
+/* ===== About ===== */
+.nf-about {
+    margin-top: 22px;
+}
+
+.nf-about-img {
+    position: relative;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 18px 40px rgba(18,38,63,.12);
+}
+
+    .nf-about-img img {
+        width: 100%;
+        display: block;
+    }
+
+    .nf-about-img::before {
+        /* linha diagonal decorativa */
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(135deg, transparent 49%, rgba(255,255,255,.9) 50%, transparent 51%);
+        opacity: .35;
+        pointer-events: none;
+    }
+
+.nf-badge-years {
+    position: absolute;
+    left: 14px;
+    bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #1677ff;
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 999px;
+    box-shadow: 0 8px 24px rgba(22,119,255,.35);
+}
+
+    .nf-badge-years strong {
+        font-size: 24px;
+        line-height: 1;
+    }
+
+    .nf-badge-years small {
+        font-size: 12px;
+        line-height: 1.05;
+    }
+
+.nf-eyebrow {
+    display: inline-block;
+    font-size: .8rem;
+    letter-spacing: .08em;
+    color: #2b6dff;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.nf-title {
+    font-weight: 800;
+    margin: 0 0 10px;
+}
+
+.nf-lead {
+    color: #475467;
+    margin-bottom: 14px;
+}
+
+.nf-mini-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    border-radius: 12px;
+    background: #ffffff;
+    border: 1px solid #e6e9ef;
+    box-shadow: 0 6px 16px rgba(18,38,63,.06);
+}
+
+    .nf-mini-card i {
+        font-size: 20px;
+        color: #2b6dff;
+    }
+
+.nf-mini-title {
+    font-weight: 700;
+    line-height: 1;
+}
+
+.nf-mini-sub {
+    color: #667085;
+    font-size: .9rem;
+    margin-top: -2px;
+}
+
+.nf-mute {
+    color: #667085;
+}
+
+.nf-cta {
+    background: #1677ff;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 16px;
+    border: 1px solid #1677ff;
+    box-shadow: 0 10px 26px rgba(22,119,255,.28);
+}
+
+    .nf-cta:hover {
+        background: #146fe3;
+        border-color: #146fe3;
+        color: #fff;
+    }
+
+/* ===== Small tweaks ===== */
+@media (max-width: 575.98px) {
+    .nf-feature-card {
+        padding: 14px 12px;
+        border-radius: 14px;
+    }
+
+    .nf-title {
+        font-size: 1.6rem;
+    }
+
+    .nf-badge-years {
+        transform: scale(.95);
+        transform-origin: left bottom;
+    }
+}
