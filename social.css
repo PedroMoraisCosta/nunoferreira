@@ -1,0 +1,27 @@
+.team-card {
+  text-align: center;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px #2483FE;
+  background-color: #fff;
+  height: 100%;
+}
+
+.team-card img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+}
+
+.team-card h5 {
+  margin-top: 10px;
+  margin-bottom: 2px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.team-card small {
+  color: #6c757d;
+  font-size: 0.9rem;
+}

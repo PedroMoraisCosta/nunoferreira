@@ -54,6 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
       .then(res => res.text())
       .then(data => {
         socialsectionEl.innerHTML = data
+        initSocialSection()
       })
   }
 
