@@ -22,6 +22,7 @@
     letter-spacing: 1px;
     background-color: rgba(35, 132, 255, 30%);
     padding: 0px;
+    padding-top: 35px;
 }
 
     .navbar .container {
@@ -109,6 +110,9 @@
     }
 
 .navbar-top {
+    max-width: 1200px;
+    width: 100%;
+    position: fixed;
     min-width: 320px;
     min-height: 35px;
     margin-bottom: 0;
@@ -116,6 +120,7 @@
     font-size: 15px !important;
     letter-spacing: 1px;
     background-color: #0033A1;
+    z-index: 9999;
 }
 
 .btn-navbar {
