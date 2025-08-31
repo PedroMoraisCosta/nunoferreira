@@ -21,7 +21,7 @@ body {
     width: 100%;
     margin: 0 auto;
     background-color: white;
-    /* min-height: 100vh; Comentado porque na pagina do servico adiciona espaco em ecra grande à parte de baixo da imagem e do nr. de telemovel*/ 
+    /* min-height: 100vh; Comentado porque na pagina do servico adiciona espaco em ecra grande à parte de baixo da imagem e do nr. de telemovel*/
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -29,7 +29,7 @@ body {
     padding-right: 0px;
 }
 
-.row{
+.row {
     margin-left: 0px !important;
     width: 100%;
 }
@@ -49,18 +49,18 @@ body {
     text-shadow: 1px 1px 4px black;
 }
 
-.title-button{
- background-color: #3e5b75; 
-  color: white;              
-  padding: 10px 20px;        
-  text-align: center;        
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  letter-spacing: 1px;
-  width: fit-content;        /* Shrinks to fit the text */
-  border-radius: 2px; 
-  margin: 0 auto;
-  white-space: nowrap;
+.title-button {
+    background-color: #3e5b75;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: fit-content; /* Shrinks to fit the text */
+    border-radius: 2px;
+    margin: 0 auto;
+    white-space: nowrap;
 }
 
 /* ===== HERO ===== */
@@ -110,49 +110,49 @@ body {
     color: #fff;
     font-weight: 500;
     line-height: 1.3;
-    font-size: 1em; /* herda da escala do cartão */
-    text-shadow: 0 2px 8px rgba(0,0,0,.55);
+    font-size: 1.2em; /* herda da escala do cartão */
+    text-shadow: 0 3px 8px rgba(0,0,0,.55);
     -webkit-text-stroke: .4px rgba(0,0,0,.35);
 }
 
 .info-card {
-  text-align: center;
-  border: 1px solid #2483FE;
-  border-radius: 10px;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease;
-   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  width: 100%;
+    text-align: center;
+    border: 1px solid #2483FE;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
 }
 
-.info-card:hover {
-  transform: translateY(-5px);
-}
+    .info-card:hover {
+        transform: translateY(-5px);
+    }
 
-.info-card i {
-  font-size: 2rem;
-  color: #2483FE;
-  margin-bottom: 10px;
-  display: inline-block;
-}
+    .info-card i {
+        font-size: 2rem;
+        color: #2483FE;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
 
-.info-card h5 {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
+    .info-card h5 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
 
-.info-card small {
-  font-size: 0.9rem;
-  color: #444;
-  display: block;
-  line-height: 1.4;
-}
+    .info-card small {
+        font-size: 0.9rem;
+        color: #444;
+        display: block;
+        line-height: 1.4;
+    }
 
 
 /***********************************/
