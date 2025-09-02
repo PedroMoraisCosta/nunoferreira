@@ -335,7 +335,111 @@ body {
         color: #fff;
     }
 
+/* ===== Services Quick ===== */
+.services-quick {
+    background: #fff;
+    margin-block: 36px; /* ajusta o valor a gosto */
+}
+
+.sq-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 16px 28px;
+}
+
+.services-quick-grid {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0,1fr)); /* desktop: 6 em 1 linha */
+    gap: 16px 14px; /* row-gap, column-gap */
+    align-items: start;
+    justify-items: center;
+}
+
+.sq-link {
+    --icon-size: 72px;
+    --ring: 2px;
+    --ring2: 6px;
+    display: grid;
+    justify-items: center;
+    align-content: start;
+    gap: 10px;
+    text-decoration: none;
+    color: #0b1b2a;
+    word-break: break-word;
+    white-space: normal;
+}
+
+.sq-icon {
+    width: var(--icon-size);
+    height: var(--icon-size);
+    border-radius: 999px;
+    display: grid;
+    place-items: center;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(18,38,63,.08);
+    border: var(--ring) solid rgba(30, 90, 200, .35);
+}
+
+    .sq-icon::after {
+        content: "";
+        position: absolute;
+        inset: calc(var(--ring) * -1);
+        border-radius: 999px;
+        border: var(--ring2) solid rgba(30, 90, 200, .12); /* 2.º anel leve */
+        pointer-events: none;
+    }
+
+    .sq-icon i {
+        font-size: calc(var(--icon-size) * 0.5);
+        color: #2b6dff; /* azul dos ícones */
+        transition: transform .18s ease, color .18s ease;
+    }
+
+.sq-link:hover .sq-icon i,
+.sq-link:focus-visible .sq-icon i {
+    transform: scale(1.12); /* efeito hover */
+    color: #146fe3;
+}
+
+.sq-label {
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.96rem;
+    line-height: 1.2;
+    color: #0a2540;
+}
+
+/* Acessibilidade de foco */
+.sq-link:focus-visible {
+    outline: none;
+}
+
+    .sq-link:focus-visible .sq-icon {
+        box-shadow: 0 0 0 3px rgba(43,109,255,.3);
+    }
+
+.sq-link:hover .sq-icon {
+    border-color: #2b6dff;
+}
+
+    .sq-link:hover .sq-icon::after {
+        border-color: rgba(43,109,255,.22);
+    }
+
 /* ===== Small tweaks ===== */
+/* tablet: 3 colunas × 2 linhas */
+@media (max-width: 991.98px) {
+    .services-quick-grid {
+        grid-template-columns: repeat(3, minmax(0,1fr));
+        gap: 14px 12px;
+    }
+
+    .sq-link {
+        --icon-size: 68px;
+    }
+}
+
 @media (max-width: 575.98px) {
     /* 1) hero com padding igual em todos os lados */
     .hero {
@@ -368,5 +472,25 @@ body {
 
     .hero-logo {
         width: min(60%, 160px);
+    }
+    .services-quick-grid {
+        grid-template-columns: repeat(2, minmax(0,1fr));
+        gap: 12px 1px;
+    }
+
+    .sq-container {
+        padding: 16px 12px 2px;
+    }
+
+    .sq-link {
+        --icon-size: 64px;
+    }
+
+    .sq-label {
+        font-size: 0.95rem;
+    }
+
+    .services-quick {
+        margin-block: 24px; /* ajusta o valor a gosto */
     }
 }
