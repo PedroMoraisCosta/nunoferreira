@@ -22,8 +22,8 @@ function initSocialSection () {
         card.className = 'col-md-3 col-sm-6 mt-3'
         card.innerHTML = `
           <div data-aos="${member.aos || 'fade-up'}" class="team-card">
-            <h5>${member.title}</h5>
-            <small>${member.description}</small>
+            <h5 data-i18n="social-titulo-${member.identificador}"></h5>
+            <small data-i18n="social-descricao-${member.identificador}"></small>
             <div id="${carouselId}Container"></div>
           </div>
         `
@@ -74,4 +74,6 @@ function initSocialSection () {
       console.log('✅ Social section loaded with team carousels.')
     })
     .catch(err => console.error('erro no ficheiro social.txt:', err))
+
+  loadLanguage(getLanguage())
 }

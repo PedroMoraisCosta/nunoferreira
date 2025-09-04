@@ -1,7 +1,6 @@
 [
   {
-    "title": "Festa de Natal Solidária 2021",
-    "description": "Um momento mágico de partilha e esperança, onde cada criança é abraçada pelo espírito Natalício.",
+    "identificador":"1",
     "images": [
       { "src": "./assets/images/social/1.jpg", "alt": "Imagem 1" },
       { "src": "./assets/images/social/2.jpg", "alt": "Imagem 2" },
@@ -10,8 +9,7 @@
     ]
   },
   {
-    "title": "Natal Solidário",
-    "description": "Com o espirito de Natal e o coração cheio de alegria, visitei a Casa de Abrigo e a Casa de Emergência para vítimas de violência doméstica. Lá tive o privilégio de oferecer presentes de Natal às crianças levando esperança e um sorriso a cada menino e menina.",
+    "identificador":"2",
     "images": [
       { "src": "./assets/images/social/5.jpg", "alt": "Imagem 5" },
       { "src": "./assets/images/social/6.jpg", "alt": "Imagem 6" },
@@ -20,8 +18,7 @@
     ]
   },
   {
-    "title": "Gala de Natal 2015",
-    "description": "Organizámos um evento mágico para as crianças onde proporcionámos momentos de diversão (pinturas e insufláveis); Prendas; Alimentação e o mais importante um ambiente natalício.",
+    "identificador":"3",
     "images": [
       { "src": "./assets/images/social/9.jpg", "alt": "Imagem 9" },
       { "src": "./assets/images/social/10.jpg", "alt": "Imagem 10" },
@@ -30,8 +27,7 @@
     ]
   },
   {
-    "title": "Torneio solidário para ajudar a Família Francisco",
-    "description": "Organizámos um torneio de futebol para angariar fundos e bens essenciais para a Família Francisco, realizando também o sonho do menino com uma camisola autografada pelo plantel do Benfica.",
+    "identificador":"4",
     "images": [
       { "src": "./assets/images/social/13.jpg", "alt": "Imagem 13" },
       { "src": "./assets/images/social/14.jpg", "alt": "Imagem 14" },
@@ -41,8 +37,7 @@
     ]
   },
   {
-    "title": "Solidariadade Pelo Duarte",
-    "description": "Nosso contributo foi doar umas pequenas obras para que o Duarte e sua família tenha mais qualidade de vida.",
+    "identificador":"5",
     "images": [
       { "src": "./assets/images/social/18.jpg", "alt": "Imagem 18" },
       { "src": "./assets/images/social/19.jpg", "alt": "Imagem 19" },
@@ -52,8 +47,7 @@
     ]
   },
   {
-    "title": "Caminhada Solidária Guiado Pelas Patas 2021",
-    "description": "Esta caminhada teve como objetivo angariar fundos para a ABAADV, uma associação que treina cães-guia para pessoas com deficiência visual.",
+    "identificador":"6",
     "images": [
       { "src": "./assets/images/social/22.jpg", "alt": "Imagem 22" },
       { "src": "./assets/images/social/23.jpg", "alt": "Imagem 23" },
