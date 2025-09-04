@@ -12,7 +12,103 @@
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
-    <section class="services-quick" aria-labelledby="srv-title">
+    <section class="services-quick" aria-labelledby="srv-atalhos">
+        <div class="sq-container">
+            <h2 id="srv-atalhos" class="visually-hidden">Atalhos de serviços</h2>
+
+            <div class="sq-grid">
+                <a class="sq-card" href="services.html#restauros">
+                    <i class="bi bi-brush sq-icon" aria-hidden="true"></i>
+                    <span class="sq-label">Restauros</span>
+                </a>
+
+                <a class="sq-card" href="services.html#eletricas">
+                    <i class="bi bi-lightning-charge sq-icon" aria-hidden="true"></i>
+                    <span class="sq-label">Instalações elétricas</span>
+                </a>
+
+                <a class="sq-card" href="services.html#canalizacoes">
+                    <i class="bi bi-droplet sq-icon" aria-hidden="true"></i>
+                    <span class="sq-label">Canalizações</span>
+                </a>
+
+                <a class="sq-card" href="services.html#reparacoes">
+                    <i class="bi bi-wrench sq-icon" aria-hidden="true"></i>
+                    <span class="sq-label">Reparações</span>
+                </a>
+
+                <a class="sq-card" href="services.html#anomalias">
+                    <i class="bi bi-exclamation-triangle sq-icon" aria-hidden="true"></i>
+                    <span class="sq-label">Correção de anomalias</span>
+                </a>
+
+                <a class="sq-card" href="services.html#orcamentos">
+                    <i class="bi bi-receipt sq-icon" aria-hidden="true"></i>
+                    <span class="sq-label">Orçamentos</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="nf-news" aria-labelledby="news-title">
+        <div class="news-wrap">
+            <p class="news-eyebrow">Para não perder</p>
+            <h2 id="news-title" class="news-title">Conheça os nossos ultimos projetos</h2>
+
+            <div class="news-grid">
+                <!-- Card 1 (variante escura) -->
+                <article class="news-card">
+                    <a class="news-media" href="noticia-1.html">
+                        <img src="./assets/images/predio.jpg" alt="Imagem da notícia 1">
+                    </a>
+                    <div class="news-body">
+                        <span class="news-tag">Diversos</span>
+                        <h3 class="news-heading">
+                            <a href="noticia-1.html">Bem-vindo ao nosso novo site!</a>
+                        </h3>
+                        <p class="news-excerpt">Estamos felizes em receber a sua visita. Descubra as novidades…</p>
+                    </div>
+                </article>
+
+                <!-- Card 2 (variante clara) -->
+                <article class="news-card is-light">
+                    <a class="news-media" href="noticia-2.html">
+                        <img src="./assets/images/salao.jpg" alt="Imagem da notícia 2">
+                    </a>
+                    <div class="news-body">
+                        <span class="news-tag">Oportunidade</span>
+                        <h3 class="news-heading">
+                            <a href="noticia-2.html">Estamos a reforçar a nossa equipa</a>
+                        </h3>
+                        <p class="news-excerpt">Procuramos profissionais com foco em qualidade e execução…</p>
+                    </div>
+                </article>
+
+                <!-- Card 3 (variante escura) -->
+                <article class="news-card">
+                    <a class="news-media" href="noticia-3.html">
+                        <img src="./assets/images/telhado.jpg" alt="Imagem da notícia 3">
+                    </a>
+                    <div class="news-body">
+                        <span class="news-tag">Diversos</span>
+                        <h3 class="news-heading">
+                            <a href="noticia-3.html">Intervenção técnica programada</a>
+                        </h3>
+                        <p class="news-excerpt">Informamos os clientes sobre o cronograma de serviços…</p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="news-cta">
+                <a class="btn-pill-outline" href="noticias.html">
+                    <i class="bi bi-plus"></i> Ver tudo
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--<section class="services-quick" aria-labelledby="srv-title">
         <div class="sq-container">
             <h2 id="srv-title" class="sq-title visually-hidden">Os Nossos Serviços</h2>
 
@@ -48,8 +144,7 @@
                 </a>
             </div>
         </div>
-    </section>
-
+    </section>-->
     <!-- ===== Services/Highlights + About ===== -->
     <!--<div class="row mb-5">
 
@@ -116,8 +211,8 @@
 
         </div>-->
     <!-- About block -->
-    <div class="row gy-4 gy-md-5 justify-content-center align-items-center nf-about">
-        <!-- IMAGEM -->
+    <div class="row gy-4 gy-md-5 mb-5 justify-content-center align-items-center nf-about">
+        <!--IMAGEM-->
         <div class="col-12 col-md-6 d-flex justify-content-center">
             <div class="nf-about-img w-75">
                 <img src="./assets/images/worker.jpg"
@@ -128,8 +223,7 @@
                 </span>
             </div>
         </div>
-
-        <!-- TEXTO -->
+        <!--TEXTO-->
         <div class="col-12 col-md-6 d-flex flex-column justify-content-center text-center text-md-start">
             <span class="nf-eyebrow">OUR ABOUT</span>
             <h2 class="nf-title">Roofsie exception roofing<br>services</h2>
@@ -158,90 +252,90 @@
     </div>
 
 </div>
-    <!--<main class="content">
-     RESULTADOS
-    <div class="info-grid container py-5">
-         <div data-i18n="index-performance" class="mb-4 w-50 text-uppercase title-button" >Performance</div>
+<!--<main class="content">
+ RESULTADOS
+<div class="info-grid container py-5">
+     <div data-i18n="index-performance" class="mb-4 w-50 text-uppercase title-button" >Performance</div>
 
-        <div class="row g-4">
-            <div class="col-lg-3 col-md-6 h-100">
-            <div data-aos="zoom-in" class="info-card h-100">
-                <i class="bi bi-bar-chart-line"></i>
-                <h5 data-i18n="index-growth_title">Crescimento da Empresa</h5>
-                <small data-i18n="index-growth_text">DE ATE ( + 378% )</small>
-            </div>
-            </div>
-            <div class="col-lg-3 col-md-6 h-100">
-            <div data-aos="fade-up" class="info-card h-100">
-                <i class="bi bi-house-door"></i>
-                <h5 data-i18n="index-projects_title">Projetos Concluídos</h5>
-                <small data-i18n="index-projects_text">500 +</small>
-            </div>
-            </div>
-            <div class="col-lg-3 col-md-6 h-100">
-            <div data-aos="fade-right" class="info-card h-100">
-                <i class="bi bi-star-fill"></i>
-                <h5 data-i18n="index-experience_title">Experiência Certificada</h5>
-                <small data-i18n="index-experience_text">5 ★</small>
-            </div>
-            </div>
+    <div class="row g-4">
+        <div class="col-lg-3 col-md-6 h-100">
+        <div data-aos="zoom-in" class="info-card h-100">
+            <i class="bi bi-bar-chart-line"></i>
+            <h5 data-i18n="index-growth_title">Crescimento da Empresa</h5>
+            <small data-i18n="index-growth_text">DE ATE ( + 378% )</small>
+        </div>
+        </div>
+        <div class="col-lg-3 col-md-6 h-100">
+        <div data-aos="fade-up" class="info-card h-100">
+            <i class="bi bi-house-door"></i>
+            <h5 data-i18n="index-projects_title">Projetos Concluídos</h5>
+            <small data-i18n="index-projects_text">500 +</small>
+        </div>
+        </div>
+        <div class="col-lg-3 col-md-6 h-100">
+        <div data-aos="fade-right" class="info-card h-100">
+            <i class="bi bi-star-fill"></i>
+            <h5 data-i18n="index-experience_title">Experiência Certificada</h5>
+            <small data-i18n="index-experience_text">5 ★</small>
+        </div>
+        </div>
 
-            <div class="col-lg-3 col-md-6 h-100">
-            <div data-aos="fade-left" class="info-card h-100">
-                <i class="bi bi-gift"></i>
-                <h5 data-i18n="index-time_title">Tempo de Atividade</h5>
-                <small data-i18n="index-time_text">21 Anos</small>
-            </div>
-            </div>
+        <div class="col-lg-3 col-md-6 h-100">
+        <div data-aos="fade-left" class="info-card h-100">
+            <i class="bi bi-gift"></i>
+            <h5 data-i18n="index-time_title">Tempo de Atividade</h5>
+            <small data-i18n="index-time_text">21 Anos</small>
+        </div>
         </div>
     </div>
-     SERVICOS
-    <div class="info-grid container py-5">
-                <div data-aos="flip-left" data-i18n="index-services" class="mb-4 w-50 text-uppercase title-button" >os nossos serviços</div>
+</div>
+ SERVICOS
+<div class="info-grid container py-5">
+            <div data-aos="flip-left" data-i18n="index-services" class="mb-4 w-50 text-uppercase title-button" >os nossos serviços</div>
 
-                <div class="row g-4 justify-content-center">
-                    <div class="col-lg-4 col-md-6 ">
-                       <div data-aos="fade-up" class="info-card h-100">
-                            <i class="bi bi-lightning-charge"></i>
-                            <h5 data-i18n="index-electrical_title">Instalações Elétricas</h5>
-                            <small data-i18n="index-electrical_text">Residenciais<br>Comerciais</small>
-                        </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 ">
+                   <div data-aos="fade-up" class="info-card h-100">
+                        <i class="bi bi-lightning-charge"></i>
+                        <h5 data-i18n="index-electrical_title">Instalações Elétricas</h5>
+                        <small data-i18n="index-electrical_text">Residenciais<br>Comerciais</small>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                </div>
+                <div class="col-lg-4 col-md-6">
 
-                         <div data-aos="fade-left" class="info-card h-100 ">
-                            <i class="bi bi-droplet-half"></i>
-                            <h5 data-i18n="index-plumbing_title">Canalizações</h5>
-                            <small data-i18n="index-plumbing_text">Instalações e reparações<br>Deteção de fugas</small>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                         <div data-aos="zoom-in" class="info-card h-100">
-                            <i class="bi bi-exclamation-triangle"></i>
-                            <h5 data-i18n="index-anomalies_title">Correção de Anomalias</h5>
-                            <small data-i18n="index-anomalies_text">Identificamos anomalias<br>Corrigimos falhas</small>
-                        </div>
+                     <div data-aos="fade-left" class="info-card h-100 ">
+                        <i class="bi bi-droplet-half"></i>
+                        <h5 data-i18n="index-plumbing_title">Canalizações</h5>
+                        <small data-i18n="index-plumbing_text">Instalações e reparações<br>Deteção de fugas</small>
                     </div>
                 </div>
 
-                <div class="row g-4 mt-1 justify-content-center">
-                    <div class="col-lg-4 col-md-6 ">
-                         <div data-aos="fade-right" class="info-card h-100">
-                            <i class="bi bi-house"></i>
-                            <h5 data-i18n="index-general_title">Manutenção Geral</h5>
-                            <small data-i18n="index-general_text">Substituição de fechaduras<br>Montagem de móveis</small>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-4 col-md-6 ">
-                       <div data-aos="fade-up" class="info-card h-100">
-                            <i class="bi bi-tools"></i>
-                            <h5 data-i18n="index-restores_title">Todo tipo de Restauros</h5>
-                            <small data-i18n="index-restores_text">Conservação e Reabilitação<br>Soluções chave-na-mão</small>
-                        </div>
+                <div class="col-lg-4 col-md-6">
+                     <div data-aos="zoom-in" class="info-card h-100">
+                        <i class="bi bi-exclamation-triangle"></i>
+                        <h5 data-i18n="index-anomalies_title">Correção de Anomalias</h5>
+                        <small data-i18n="index-anomalies_text">Identificamos anomalias<br>Corrigimos falhas</small>
                     </div>
                 </div>
             </div>
-        </main>-->
+
+            <div class="row g-4 mt-1 justify-content-center">
+                <div class="col-lg-4 col-md-6 ">
+                     <div data-aos="fade-right" class="info-card h-100">
+                        <i class="bi bi-house"></i>
+                        <h5 data-i18n="index-general_title">Manutenção Geral</h5>
+                        <small data-i18n="index-general_text">Substituição de fechaduras<br>Montagem de móveis</small>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 ">
+                   <div data-aos="fade-up" class="info-card h-100">
+                        <i class="bi bi-tools"></i>
+                        <h5 data-i18n="index-restores_title">Todo tipo de Restauros</h5>
+                        <small data-i18n="index-restores_text">Conservação e Reabilitação<br>Soluções chave-na-mão</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>-->
 </div>
