@@ -186,14 +186,14 @@ body {
     }
 
 .nf-feature-ico {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border-radius: 12px;
     display: grid;
     place-items: center;
-    background: #e9eefb;
+    /*background: #e9eefb;*/
     color: #2b6dff;
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 10px;
 }
 
@@ -287,6 +287,7 @@ body {
 .nf-lead {
     color: #475467;
     margin-bottom: 14px;
+    text-align: justify;
 }
 
 .nf-mini-card {
@@ -318,6 +319,7 @@ body {
 
 .nf-mute {
     color: #667085;
+    text-align: justify;
 }
 
 .nf-cta {
@@ -329,11 +331,11 @@ body {
     box-shadow: 0 10px 26px rgba(22,119,255,.28);
 }
 
-    .nf-cta:hover {
-        background: #146fe3;
-        border-color: #146fe3;
-        color: #fff;
-    }
+.nf-cta:hover {
+    background: #146fe3;
+    border-color: #146fe3;
+    color: #fff;
+}
 
 
 /* utilitário para esconder headings visuais e manter acessibilidade */
@@ -399,7 +401,7 @@ body {
     margin-top: 8px;
     text-align: center;
     font-weight: 600;
-    font-size: .92rem;
+    font-size: .82rem;
     line-height: 1.2;
 }
 
@@ -578,6 +580,18 @@ body {
         border-color: #fff;
     }
 
+/* Wrapper para igualar larguras e centrar os “botões” */
+.nf-mini-wrap {
+    display: grid;
+    gap: 12px; /* espaço entre cartões */
+    grid-template-columns: repeat(2, minmax(240px, 1fr)); /* 2 colunas por omissão */
+    max-width: 900px; /* centra face ao conteúdo */
+    margin: 12px auto 20px; /* centra horizontalmente */
+}
+
+.nf-mini-card {
+    min-height: 72px;
+} 
 
 /* ===== Small tweaks ===== */
 /* tablet: 3 colunas × 2 linhas */
@@ -613,6 +627,20 @@ body {
 
     .news-media {
         height: 180px;
+    }
+    .nf-mini-wrap {
+        grid-template-columns: 1fr;
+        justify-items: center; /* centra os cartões dentro do grid */
+        row-gap: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+
+    .nf-mini-card {
+        width: min(320px, 100%); /* largura confortável */
+        justify-content: center; /* conteúdo centrado */
+        text-align: center;
     }
 }
 
@@ -710,6 +738,20 @@ body {
 
     .news-cta {
         justify-content: center;
+    }
+    .nf-mini-wrap {
+        grid-template-columns: 1fr;
+        justify-items: center; /* centra os cartões dentro do grid */
+        row-gap: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+
+    .nf-mini-card {
+        width: min(320px, 100%); /* largura confortável */
+        justify-content: center; /* conteúdo centrado */
+        text-align: center;
     }
 
 }
