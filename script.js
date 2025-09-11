@@ -16,3 +16,35 @@ document.addEventListener('DOMContentLoaded', function () {
     })
   })
 })
+
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('#contacto');
+    const subjectInput = document.querySelector('#assunto');
+
+    // Click nos "Saber mais"
+    document.addEventListener('click', (e) => {
+        const link = e.target.closest('.js-saber-mais');
+        if (!link) return;
+
+        const assunto = link.dataset.assunto || '';
+        // Deixa o href funcionar como âncora, mas com scroll suave + foco
+        e.preventDefault();
+        if (subjectInput) {
+            subjectInput.value = assunto;
+            subjectInput.dispatchEvent(new Event('input', { bubbles: true }));
+        }
+        if (form) {
+            form.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            setTimeout(() => subjectInput && subjectInput.focus(), 350);
+        }
+        history.replaceState(null, '', '#contacto'); // atualiza hash
+    });
+
+    // Suporta deep-link: ?assunto=... ou #assunto=...
+    const fromQuery = new URLSearchParams(location.search).get('assunto');
+    const fromHash = new URLSearchParams(location.hash.replace(/^#/, '?')).get('assunto');
+    const preset = fromQuery || fromHash;
+    if (preset && subjectInput) {
+        subjectInput.value = decodeURIComponent(preset);
+    }
+});
