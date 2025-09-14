@@ -27,6 +27,13 @@
         <div id="social-section-placeholder"></div>
         <div id="footer-placeholder"></div>
         <script src="architecture.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                buildArchitecture(function () {
+                console.log('Toda a arquitetura foi carregada!')
+                })
+            })
+        </script>
         <script src="social.js"></script>
         <script src="lang-switcher.js"></script>
         <script src="links.js"></script>

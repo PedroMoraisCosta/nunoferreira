@@ -34,3 +34,10 @@ function getLanguage () {
 document.addEventListener('DOMContentLoaded', () => {
   loadLanguage(getLanguage())
 })
+
+function getTranslationFromLangFile(key) {
+  const lang = getLanguage() // pega a língua atual
+  return fetch(`./lang/${lang}.json`)
+    .then(res => res.json())
+    .then(dict => dict[key] || key) // fallback para a própria key se não existir
+}

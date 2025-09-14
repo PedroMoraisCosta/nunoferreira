@@ -76,3 +76,21 @@ function hideFormError () {
     errorEl.style.display = 'none'
   }
 }
+
+function getParametroURL (nome) {
+  const params = new URLSearchParams(window.location.search)
+  return params.get(nome)
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  buildArchitecture(() => {
+    let param = getParametroURL('parameter')
+
+    if (param) {
+      getTranslationFromLangFile(param).then(value => {
+        const input = document.getElementById('subjectid')
+        if (input) input.value = value
+      })
+    }
+  })
+})
