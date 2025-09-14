@@ -6,7 +6,7 @@
 }
 
 .text-input{
-    margin-left: 12px;
+    margin-left: 0px;
     margin-right: 12px;
 }
 
@@ -23,5 +23,5 @@ button.btn {
   color: #dc3545;
   font-size: 0.875rem;
   display: none;
-  margin-left: 1rem;
+  margin-left: 0rem;
 }
