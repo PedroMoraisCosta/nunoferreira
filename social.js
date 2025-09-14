@@ -15,7 +15,7 @@ function initSocialSection () {
       }
 
       teamMembers.forEach((member, index) => {
-        const carouselId = `teamCarousel${index}`
+        const carouselId = `teamCarousel${index + 1}`
 
         // Create team card
         const card = document.createElement('div')
@@ -72,8 +72,8 @@ function initSocialSection () {
       })
 
       console.log('✅ Social section loaded with team carousels.')
+
+      loadLanguage(getLanguage())
     })
     .catch(err => console.error('erro no ficheiro social.txt:', err))
-
-  loadLanguage(getLanguage())
 }
