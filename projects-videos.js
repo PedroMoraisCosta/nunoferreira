@@ -69,6 +69,7 @@ function initProjectsVideos () {
         placeholder.innerHTML = ''
         placeholder.appendChild(iframe)
       })
+        loadLanguage(getLanguage())
     })
     .catch(err => {
       console.error('Erro ao carregar videos.txt:', err)

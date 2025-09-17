@@ -16,6 +16,9 @@
                 <div class="form ms-2">
                     <div data-i18n="contactform-title" class="mb-4 text-uppercase title-button">Formulário de Contato</div>
 
+                    <iframe class="basinIframe" src="https://usebasin.com/form/e00a7437aabc/view/f4969fdf3594?iframe=true" frameborder="0" style="border: none; overflow: hidden;" onload="var self = this; self.contentWindow.postMessage('getHeight', '*'); setInterval(function() { self.contentWindow.postMessage('getHeight', '*'); }, 500); window.addEventListener('message', function(event) { if (event.data.action === 'setHeight') { self.style.height = event.data.height + 'px'; } });" width="100%"></iframe>
+                    <script type="text/javascript">window.addEventListener('message', function (event) { if (event.data.action === 'redirect') { window.location.href = event.data.url; } });</script>
+                    <script type="text/javascript">window.addEventListener('message', function (event) { if (event.data.action === 'redirect') { window.location.href = event.data.url; } });</script>
                     <div class="row d-flex justify-content-center">
                         <form id="contacto">
                             <!-- Nome -->
@@ -48,14 +51,14 @@
                             <!-- Mensagem -->
                             <div class="row d-flex justify-content-between align-items-center">
                                 <div data-i18n="contactform-message" class="label">Mensagem</div>
-                                
+
                                 <div class="error-message" data-i18n="contactform-error" id="messageid-error">obrigatório</div>
-                                
+
                             </div>
                             <textarea class="text-input" id="messageid" rows="5"></textarea>
 
                             <!-- Send Button -->
-                              <div class="row d-flex justify-content-center">
+                            <div class="row d-flex justify-content-center">
                                 <button id="sendButton" type="button" data-i18n="contactform-send" class="btn nf-cta text-uppercase">
                                     Enviar
                                 </button>
