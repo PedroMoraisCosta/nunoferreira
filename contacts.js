@@ -1,51 +1,52 @@
 function setupContactFormValidation () {
-  const sendBtn = document.getElementById('sendButton')
-  if (!sendBtn) return
+    loadLanguage(getLanguage())
+    //const sendBtn = document.getElementById('sendButton')
+  //if (!sendBtn) return
 
-  sendBtn.addEventListener('click', function () {
-    hideFormError()
-    const fields = [
-      { id: 'labelid', label: 'Nome' },
-      { id: 'emailid', label: 'Email' },
-      { id: 'subjectid', label: 'Assunto' },
-      { id: 'messageid', label: 'Mensagem' }
-    ]
+  //sendBtn.addEventListener('click', function () {
+  //  hideFormError()
+  //  const fields = [
+  //    { id: 'labelid', label: 'Nome' },
+  //    { id: 'emailid', label: 'Email' },
+  //    { id: 'subjectid', label: 'Assunto' },
+  //    { id: 'messageid', label: 'Mensagem' }
+  //  ]
 
-    let hasError = false
+  //  let hasError = false
 
-    fields.forEach(field => {
-      const input = document.getElementById(field.id)
-      const error = document.getElementById(`${field.id}-error`)
-      const value = input.value.trim()
+  //  fields.forEach(field => {
+  //    const input = document.getElementById(field.id)
+  //    const error = document.getElementById(`${field.id}-error`)
+  //    const value = input.value.trim()
 
-      if (!value) {
-        input.classList.add('input-error-color')
-        if (error) {
-          error.style.display = 'block'
-        }
-        hasError = true
-      } else {
-        input.classList.remove('input-error-color')
-        if (error) {
-          error.style.display = 'none'
-        }
-      }
-    })
+  //    if (!value) {
+  //      input.classList.add('input-error-color')
+  //      if (error) {
+  //        error.style.display = 'block'
+  //      }
+  //      hasError = true
+  //    } else {
+  //      input.classList.remove('input-error-color')
+  //      if (error) {
+  //        error.style.display = 'none'
+  //      }
+  //    }
+  //  })
 
-    if (!hasError) {
-      const name = document.getElementById('labelid').value
-      const email = document.getElementById('emailid').value
-      const subject = document.getElementById('subjectid').value
-      const message = document.getElementById('messageid').value
+  //  if (!hasError) {
+  //    const name = document.getElementById('labelid').value
+  //    const email = document.getElementById('emailid').value
+  //    const subject = document.getElementById('subjectid').value
+  //    const message = document.getElementById('messageid').value
 
-      if (isMobileDevice()) {
-        hideFormError()
-        SendWhatsApp({ name, email, subject, message })
-      } else {
-        showFormError()
-      }
-    }
-  })
+  //    if (isMobileDevice()) {
+  //      hideFormError()
+  //      SendWhatsApp({ name, email, subject, message })
+  //    } else {
+  //      showFormError()
+  //    }
+  //  }
+  //})
 }
 
 function isMobileDevice () {

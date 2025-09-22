@@ -1,12 +1,8 @@
 <div class="container">
-     <section class="hero">
-        <div class="hero-overlay">
-            <span class="hero-icon-wrap" aria-hidden="true">
-                <i class="bi bi-tools hero-icon"></i>
-            </span>
-
-            <p class="hero-slogan hero-slogan--big" data-i18n="contacts">
-            </p>
+    <section class="hero">
+        <div class="hero-overlay" aria-hidden="true">
+            <img src="./assets/images/contacts.png" alt="Nuno Ferreira" class="hero-logo" />
+            <p class="hero-slogan" data-i18n="contacts">
         </div>
     </section>
     <!-- https://www.visionexpress.com/contact-us -->
@@ -14,51 +10,45 @@
         <div class="row mt-3 mb-3 justify-content-between">
             <div class="col-md-5 col-lg-5">
                 <div class="form ms-2">
-                    <div data-i18n="contactform-title" class="mb-4 text-uppercase title-button">Formulário de Contato</div>
 
                     <iframe class="basinIframe" src="https://usebasin.com/form/e00a7437aabc/view/f4969fdf3594?iframe=true" frameborder="0" style="border: none; overflow: hidden;" onload="var self = this; self.contentWindow.postMessage('getHeight', '*'); setInterval(function() { self.contentWindow.postMessage('getHeight', '*'); }, 500); window.addEventListener('message', function(event) { if (event.data.action === 'setHeight') { self.style.height = event.data.height + 'px'; } });" width="100%"></iframe>
                     <!--<script type="text/javascript">window.addEventListener('message', function (event) { if (event.data.action === 'redirect') { window.location.href = event.data.url; } });</script>
                     <script type="text/javascript">window.addEventListener('message', function (event) { if (event.data.action === 'redirect') { window.location.href = event.data.url; } });</script>
                     <div class="row d-flex justify-content-center">
                         <form id="contacto">-->
-                            <!-- Nome -->
-                            <!--<div class="row d-flex justify-content-between align-items-center">
-                                <div data-i18n="contactform-name" class="label">Nome</div>
-                                <div class="error-message" data-i18n="contactform-error" id="labelid-error">obrigatório</div>
-                            </div>
-                            <input type="text" class="text-input" id="labelid">-->
+                    <!-- Nome -->
+                    <!--<div class="row d-flex justify-content-between align-items-center">
+                        <div data-i18n="contactform-name" class="label">Nome</div>
+                        <div class="error-message" data-i18n="contactform-error" id="labelid-error">obrigatório</div>
+                    </div>
+                    <input type="text" class="text-input" id="labelid">-->
+                    <!-- Email -->
+                    <!--<div class="row d-flex justify-content-between align-items-center">
+                        <div data-i18n="contactform-email" class="label">Email</div>
+                        <div class="error-message" data-i18n="contactform-error" id="emailid-error">obrigatório</div>
+                    </div>
+                    <input type="text" class="text-input" id="emailid">-->
+                    <!-- Telefone -->
+                    <!--<div class="row d-flex justify-content-between align-items-center">
+                        <div data-i18n="contactform-phone" class="label">Telefone (opcional)</div>
+                    </div>
+                    <input type="text" class="text-input" id="phoneid">-->
+                    <!-- Assunto -->
+                    <!--<div class="row d-flex justify-content-between align-items-center">
+                        <div data-i18n="contactform-subject" class="label">Assunto</div>
+                        <div class="error-message" data-i18n="contactform-error" id="subjectid-error">obrigatório</div>
+                    </div>
+                    <input type="text" class="text-input" id="subjectid">-->
+                    <!-- Mensagem -->
+                    <!--<div class="row d-flex justify-content-between align-items-center">
+                        <div data-i18n="contactform-message" class="label">Mensagem</div>
 
-                            <!-- Email -->
-                            <!--<div class="row d-flex justify-content-between align-items-center">
-                                <div data-i18n="contactform-email" class="label">Email</div>
-                                <div class="error-message" data-i18n="contactform-error" id="emailid-error">obrigatório</div>
-                            </div>
-                            <input type="text" class="text-input" id="emailid">-->
+                        <div class="error-message" data-i18n="contactform-error" id="messageid-error">obrigatório</div>
 
-                            <!-- Telefone -->
-                            <!--<div class="row d-flex justify-content-between align-items-center">
-                                <div data-i18n="contactform-phone" class="label">Telefone (opcional)</div>
-                            </div>
-                            <input type="text" class="text-input" id="phoneid">-->
-
-                            <!-- Assunto -->
-                            <!--<div class="row d-flex justify-content-between align-items-center">
-                                <div data-i18n="contactform-subject" class="label">Assunto</div>
-                                <div class="error-message" data-i18n="contactform-error" id="subjectid-error">obrigatório</div>
-                            </div>
-                            <input type="text" class="text-input" id="subjectid">-->
-
-                            <!-- Mensagem -->
-                            <!--<div class="row d-flex justify-content-between align-items-center">
-                                <div data-i18n="contactform-message" class="label">Mensagem</div>
-
-                                <div class="error-message" data-i18n="contactform-error" id="messageid-error">obrigatório</div>
-
-                            </div>
-                            <textarea class="text-input" id="messageid" rows="5"></textarea>-->
-
-                            <!-- Send Button -->
-                            <!--<div class="row d-flex justify-content-center">
+                    </div>
+                    <textarea class="text-input" id="messageid" rows="5"></textarea>-->
+                    <!-- Send Button -->
+                    <!--<div class="row d-flex justify-content-center">
                                 <button id="sendButton" type="button" data-i18n="contactform-send" class="btn nf-cta text-uppercase">
                                     Enviar
                                 </button>
@@ -71,14 +61,28 @@
 
             <div class="col-md-6 col-lg-6 mt-3 mt-md-5 me-3">
                 <div class="ratio ratio-4x3">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d187.64583154554444!2d-8.605934852920692!3d41.19270646281044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24642f6fe46311%3A0xb96d08280f66d6b6!2sPraceta%20Moalde%2012%2C%204465-203%20S%C3%A3o%20Mamede%20de%20Infesta!5e0!3m2!1spt-PT!2spt!4v1754433647057!5m2!1spt-PT!2spt"
+                    <iframe src="https://www.google.com/maps?q=loc:41.19273,-8.60573&hl=pt-PT&t=k&z=20&output=embed"
+                            style="border:0; width:100%; height:100%;"
+                            allowfullscreen
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+
+                </div>
+            </div>
+
+            <!--<div class="col-md-6 col-lg-6 mt-3 mt-md-5 me-3">
+                <div class="ratio ratio-4x3">
+                    <iframe src="https://www.google.com/maps?q=41.19270646281044,-8.605934852920692&z=19&t=k&hl=pt-PT&output=embed"
                             style="border:0;"
-                            allowfullscreen=""
+                            allowfullscreen
                             loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                 </div>
-            </div>
+            </div>-->
+
 
         </div>
     </main>
