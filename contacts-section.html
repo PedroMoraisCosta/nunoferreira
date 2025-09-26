@@ -13,75 +13,83 @@
 
                     <iframe class="basinIframe" src="https://usebasin.com/form/e00a7437aabc/view/f4969fdf3594?iframe=true" frameborder="0" style="border: none; overflow: hidden;" onload="var self = this; self.contentWindow.postMessage('getHeight', '*'); setInterval(function() { self.contentWindow.postMessage('getHeight', '*'); }, 500); window.addEventListener('message', function(event) { if (event.data.action === 'setHeight') { self.style.height = event.data.height + 'px'; } });" width="100%"></iframe>
                     <!--<script type="text/javascript">window.addEventListener('message', function (event) { if (event.data.action === 'redirect') { window.location.href = event.data.url; } });</script>
-                    <script type="text/javascript">window.addEventListener('message', function (event) { if (event.data.action === 'redirect') { window.location.href = event.data.url; } });</script>
-                    <div class="row d-flex justify-content-center">
-                        <form id="contacto">-->
+            <script type="text/javascript">window.addEventListener('message', function (event) { if (event.data.action === 'redirect') { window.location.href = event.data.url; } });</script>
+            <div class="row d-flex justify-content-center">
+                <form id="contacto">-->
                     <!-- Nome -->
                     <!--<div class="row d-flex justify-content-between align-items-center">
-                        <div data-i18n="contactform-name" class="label">Nome</div>
-                        <div class="error-message" data-i18n="contactform-error" id="labelid-error">obrigatório</div>
-                    </div>
-                    <input type="text" class="text-input" id="labelid">-->
+                <div data-i18n="contactform-name" class="label">Nome</div>
+                <div class="error-message" data-i18n="contactform-error" id="labelid-error">obrigatório</div>
+            </div>
+            <input type="text" class="text-input" id="labelid">-->
                     <!-- Email -->
                     <!--<div class="row d-flex justify-content-between align-items-center">
-                        <div data-i18n="contactform-email" class="label">Email</div>
-                        <div class="error-message" data-i18n="contactform-error" id="emailid-error">obrigatório</div>
-                    </div>
-                    <input type="text" class="text-input" id="emailid">-->
+                <div data-i18n="contactform-email" class="label">Email</div>
+                <div class="error-message" data-i18n="contactform-error" id="emailid-error">obrigatório</div>
+            </div>
+            <input type="text" class="text-input" id="emailid">-->
                     <!-- Telefone -->
                     <!--<div class="row d-flex justify-content-between align-items-center">
-                        <div data-i18n="contactform-phone" class="label">Telefone (opcional)</div>
-                    </div>
-                    <input type="text" class="text-input" id="phoneid">-->
+                <div data-i18n="contactform-phone" class="label">Telefone (opcional)</div>
+            </div>
+            <input type="text" class="text-input" id="phoneid">-->
                     <!-- Assunto -->
                     <!--<div class="row d-flex justify-content-between align-items-center">
-                        <div data-i18n="contactform-subject" class="label">Assunto</div>
-                        <div class="error-message" data-i18n="contactform-error" id="subjectid-error">obrigatório</div>
-                    </div>
-                    <input type="text" class="text-input" id="subjectid">-->
+                <div data-i18n="contactform-subject" class="label">Assunto</div>
+                <div class="error-message" data-i18n="contactform-error" id="subjectid-error">obrigatório</div>
+            </div>
+            <input type="text" class="text-input" id="subjectid">-->
                     <!-- Mensagem -->
                     <!--<div class="row d-flex justify-content-between align-items-center">
-                        <div data-i18n="contactform-message" class="label">Mensagem</div>
+                <div data-i18n="contactform-message" class="label">Mensagem</div>
 
-                        <div class="error-message" data-i18n="contactform-error" id="messageid-error">obrigatório</div>
+                <div class="error-message" data-i18n="contactform-error" id="messageid-error">obrigatório</div>
 
-                    </div>
-                    <textarea class="text-input" id="messageid" rows="5"></textarea>-->
+            </div>
+            <textarea class="text-input" id="messageid" rows="5"></textarea>-->
                     <!-- Send Button -->
                     <!--<div class="row d-flex justify-content-center">
-                                <button id="sendButton" type="button" data-i18n="contactform-send" class="btn nf-cta text-uppercase">
-                                    Enviar
-                                </button>
-                                <div id="form-error" class="mt-3 text-danger fw-bold" data-i18n="contactform-whatsapp-error" style="display: none;">Por favor, envie a mensagem via e-mail em um computador ou use o WhatsApp no seu celular.</div>
-                            </div>
-                        </form>
-                    </div>-->
+                        <button id="sendButton" type="button" data-i18n="contactform-send" class="btn nf-cta text-uppercase">
+                            Enviar
+                        </button>
+                        <div id="form-error" class="mt-3 text-danger fw-bold" data-i18n="contactform-whatsapp-error" style="display: none;">Por favor, envie a mensagem via e-mail em um computador ou use o WhatsApp no seu celular.</div>
+                    </div>
+                </form>
+            </div>-->
                 </div>
             </div>
 
             <div class="col-md-6 col-lg-6 mt-3 mt-md-5 me-3">
-                <div class="ratio ratio-4x3">
+                <!-- mapa -->
+                <div class="ratio ratio-4x3 mb-2">
                     <iframe src="https://www.google.com/maps?q=loc:41.19273,-8.60573&hl=pt-PT&t=k&z=20&output=embed"
                             style="border:0; width:100%; height:100%;"
                             allowfullscreen
                             loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
+                </div>
 
-
+                <!-- morada (centrada e fora do iframe) -->
+                <div class="text-center">
+                    <div class="fw-semibold">
+                        <i class="bi bi-geo-alt me-1"></i> Praceta de Moalde 12
+                    </div>
+                    <div>4465-203 São Mamede de Infesta</div>
                 </div>
             </div>
 
+
             <!--<div class="col-md-6 col-lg-6 mt-3 mt-md-5 me-3">
-                <div class="ratio ratio-4x3">
-                    <iframe src="https://www.google.com/maps?q=41.19270646281044,-8.605934852920692&z=19&t=k&hl=pt-PT&output=embed"
-                            style="border:0;"
-                            allowfullscreen
-                            loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
-                </div>
-            </div>-->
+        <div class="ratio ratio-4x3">
+            <iframe src="https://www.google.com/maps?q=41.19270646281044,-8.605934852920692&z=19&t=k&hl=pt-PT&output=embed"
+                    style="border:0;"
+                    allowfullscreen
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>-->
 
 
         </div>
