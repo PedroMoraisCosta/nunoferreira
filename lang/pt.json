@@ -22,19 +22,6 @@
     "services_text7":"Visita técnica para elaboração de orçamentos.",
     "services_text8":"custo de 30€ + IVA",
 
-    "orcamentos":"Orçamentos",
-    "orcamento_text1":"A visita técnica para elaboração do",
-    "orcamento_text2":"orçamento possui um custo de",
-    "orcamento_text3":"30 euros + IVA",
-    "orcamento_text4":"Caso decida adjudicar o trabalho à nossa",
-    "orcamento_text5":"empresa, esse valor será descontado no",
-    "orcamento_text6":"preço final garantindo transparência e",
-    "orcamento_text7":"compromisso",
-    "orcamento_text8":"",
-    "orcamento_text9":"Tem alguma dúvida ?",
-    "orcamento_text10":"Fale connosco",
-    "orcamento_text11":"agora !",
-
     "contactform-title":"formulário de contato",
     "contactform-name":"Nome",
     "contactform-email":"Email",
@@ -44,13 +31,41 @@
     "contactform-send":"enviar",
     "contactform-error":"obrigatório",
     "contactform-whatsapp-error": "Por favor, envie a mensagem via e-mail em um computador ou use o WhatsApp no seu celular.",
-    "company-quemsomos":"quem somos",
-    "company-equipa":"a equipa",    
-     "company-intro": "é uma empresa especializada em serviços de construção civil e restauro, oferecendo soluções completas e personalizadas para projetos de todos os portes.",
+
+    "company-title": "A nossa Empresa",
+    "company-aboutus":"sobre nós",
+    "company-subtitle":"Construção e restauro com rigor",
+    "company-intro": "é uma empresa especializada em serviços de construção civil e restauro, oferecendo soluções completas e personalizadas para projetos de todos os portes.",
     "company-setorPrivado": "O serviço efetuado na área privada representa cerca de 65% do nosso trabalho, tanto em construção como na reconstrução de prédios urbanos e vivendas. Executamos ainda trabalhos de subempreitada.",
     "company-social": "Atuamos com responsabilidade social, essencialmente no concelho de Matosinhos, ajudando diversas causas sociais e organizações locais.",
     "company-qualidade": "Com uma equipa técnica experiente e altamente qualificada, a Nuno Ferreira - Construção e Restauros Unipessoal, LDA prima pela excelência em cada projeto, garantindo qualidade, cumprimento de prazos e atenção ao detalhe.",
     "company-formacao": "Investimos constantemente na formação dos nossos profissionais e na modernização dos equipamentos, de forma a responder com eficácia às exigências do setor e às particularidades de cada obra. A confiança dos nossos clientes é o reflexo do compromisso que mantemos com a inovação, segurança e sustentabilidade.",
+    "company-text1": "Clientes Satisfeitos",
+    "company-text2": "Garantia de satisfação",
+    "company-text3": "Garantia de Qualidade",
+    "company-text4": "Rigor e qualidade",
+    "company-text5": "Projetos Realizados",
+    "company-text6": "Cumprimos os prazos",
+    "company-text7": "Obras Sociais",
+    "company-text8": "Apoio à comunidade",
+    "company-text9": "Fundação",
+    "company-text10": "Expansão de serviços",
+    "company-text11": "Obras Públicas",
+    "company-text12": "Projetos Sociais",
+    "company-text13": "Sustentabilidade",
+    "company-text14": "Consolidação no Mercado",
+    "company-text15": "A equipa",
+    "company-text16": "Conheça a nossa equipa",
+    "company-text17": "Equipa técnica experiente e qualificada, focada em qualidade, prazos e detalhe.",
+    "company-text18": "Fale connosco",
+
+
+
+    
+    
+    
+    
+    
     
     "index-performance":"Conquistas Reconhecidas",
     "index-growth_title": "Crescimento da Empresa",

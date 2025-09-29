@@ -22,19 +22,7 @@
     "services_text7":"We visit, we assess, you get the right price.",
     "services_text8":"cost of €30 + VAT",
 
-    "orcamentos":"Get a quote",
-    "orcamento_text1":"The technical visit for the preparation of the",
-    "orcamento_text2":"quote has a cost of",
-    "orcamento_text3":"30 euros + VAT",
-    "orcamento_text4":"If you decide to award the job to our",
-    "orcamento_text5":"company, this amount will be deducted from",
-    "orcamento_text6":"the final price, ensuring transparency and",
-    "orcamento_text7":"commitment.",
-    "orcamento_text8":"",
-    "orcamento_text9":"Do you have any questions ?",
-    "orcamento_text10":"Contact us",
-    "orcamento_text11":"now !",
-
+    
     "contactform-title":"Contact us form",
     "contactform-name":"Name",
     "contactform-email":"Email",
@@ -45,13 +33,38 @@
     "contactform-error":"mandatory",
     "contactform-whatsapp-error": "Please send the message via email on a computer or use WhatsApp on your phone.",
 
-    "company-equipa":"our team",
-    "company-quemsomos":"about us",
+    "company-title": "Get to Know Our Company",
+    "company-aboutus":"about us",
+    "company-subtitle":"Construction and renovation with precision",
     "company-intro": "is a company specialized in civil construction and renovation services, offering complete and personalized solutions for projects of all sizes.",
     "company-setorPrivado": "Private sector services account for around 65% of our work, both in construction and in the renovation of urban buildings and homes. We also perform subcontracted work.",
     "company-social": "We act with social responsibility, mainly in the municipality of Matosinhos, supporting various social causes and local organizations.",
     "company-qualidade": "With an experienced and highly qualified technical team, Nuno Ferreira - Construction and Renovation Unipessoal, LDA stands out for excellence in every project, ensuring quality, deadline compliance, and attention to detail.",
     "company-formacao": "We constantly invest in training our professionals and modernizing our equipment to effectively meet industry demands and the particularities of each project. The trust of our clients reflects the commitment we maintain to innovation, safety, and sustainability.",
+    "company-text1": "Satisfied Customers",
+    "company-text2": "Satisfaction Guarantee",
+    "company-text3": "Quality Guarantee",
+    "company-text4": "Precision and Quality",
+    "company-text5": "Completed Projects",
+    "company-text6": "We Deliver On-time",
+    "company-text7": "Social Works",
+    "company-text8": "Community Support",
+    "company-text9": "Established",
+    "company-text10": "Services Expansion",
+    "company-text11": "Public Services",
+    "company-text12": "Social Projects",
+    "company-text13": "Sustainability",
+    "company-text14": "Market Consolidation",
+    "company-text15": "The Team",
+    "company-text16": "Meet our team",
+    "company-text17": "Experienced and qualified technical team, focused on quality, deadlines, and detail.",
+    "company-text18": "Contact us",
+
+    
+    
+    
+    
+    
     
     "index-performance":"What We’ve Achieved",
     "index-growth_title": "Company Growth",
