@@ -10,6 +10,13 @@
     "timesaturday":"Sábado: Encerrado",
     "timesunday":"Domingo: Encerrado",
     "contactsfooter":"Contatos",
+
+    "services_sabermais":"Saber mais",
+    "services_text5":"Orçamentos",
+    "services_text6":"Orçamentos",
+    "services_text7":"Visita técnica para elaboração de orçamentos.",
+    "services_text8":"custo de 30€ + IVA",
+
     "orcamentos":"Orçamentos",
     "orcamento_text1":"A visita técnica para elaboração do",
     "orcamento_text2":"orçamento possui um custo de",
@@ -22,6 +29,7 @@
     "orcamento_text9":"Tem alguma dúvida ?",
     "orcamento_text10":"Fale connosco",
     "orcamento_text11":"agora !",
+
     "contactform-title":"formulário de contato",
     "contactform-name":"Nome",
     "contactform-email":"Email",
@@ -38,6 +46,7 @@
     "company-social": "Atuamos com responsabilidade social, essencialmente no concelho de Matosinhos, ajudando diversas causas sociais e organizações locais.",
     "company-qualidade": "Com uma equipa técnica experiente e altamente qualificada, a Nuno Ferreira - Construção e Restauros Unipessoal, LDA prima pela excelência em cada projeto, garantindo qualidade, cumprimento de prazos e atenção ao detalhe.",
     "company-formacao": "Investimos constantemente na formação dos nossos profissionais e na modernização dos equipamentos, de forma a responder com eficácia às exigências do setor e às particularidades de cada obra. A confiança dos nossos clientes é o reflexo do compromisso que mantemos com a inovação, segurança e sustentabilidade.",
+    
     "index-performance":"Conquistas Reconhecidas",
     "index-growth_title": "Crescimento da Empresa",
     "index-growth_text": "DE ATE ( + 378% )",
@@ -58,11 +67,13 @@
     "index-general_text": "Substituição de fechaduras<br>Montagem de móveis",
     "index-restores_title": "Todo tipo de Restauros",
     "index-restores_text": "Conservação e Reabilitação<br>Soluções chave-na-mão",
+
     "projects-video":"videos",
+
     "social-titulo-1": "Festa de Natal Solidária 2021",
     "social-descricao-1":"Um momento mágico de partilha e esperança, onde cada criança é abraçada pelo espírito Natalício.",
     "social-titulo-2": "Natal Solidário",
-    "social-descricao-2":"Com o espirito de Natal e o coração cheio de alegria, visitei a Casa de Abrigo e a Casa de Emergência para vítimas de violência doméstica. Lá tive o privilégio de oferecer presentes de Natal às crianças levando esperança e um sorriso a cada menino e menina.",
+    "social-descricao-2":"Com o espirito de Natal e o coração cheio de alegria, visitamos a Casa de Abrigo e a Casa de Emergência para vítimas de violência doméstica. Lá tivemos o privilégio de oferecer presentes de Natal às crianças levando esperança e um sorriso a cada menino e menina.",
     "social-titulo-3": "Gala de Natal 2015",
     "social-descricao-3":"Organizámos um evento mágico para as crianças onde proporcionámos momentos de diversão (pinturas e insufláveis); Prendas; Alimentação e o mais importante um ambiente natalício.",
     "social-titulo-4": "Torneio solidário para ajudar a Família Francisco",
