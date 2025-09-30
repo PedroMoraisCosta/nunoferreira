@@ -74,6 +74,47 @@ function initSocialSection () {
       console.log('✅ Social section loaded with team carousels.')
 
       loadLanguage(getLanguage())
+
+      const container = document.getElementById('video-gallery')
+      const col = document.createElement('div')
+      col.className = 'col-lg-6 col-md-6 mb-5'
+
+      const thumb = `https://img.youtube.com/vi/xh09rBdW47o/hqdefault.jpg`
+      col.innerHTML = `
+          <div class="ratio ratio-16x9 video-placeholder" data-id="xh09rBdW47o">
+            <img src="${thumb}" alt="Video thumbnail" class="img-fluid rounded">
+            <div class="play-button">▶</div>
+          </div>
+        `
+
+      container.appendChild(col)
+
+      container.addEventListener('click', function (e) {
+        const placeholder = e.target.closest('.video-placeholder')
+        if (!placeholder) return
+
+        const variables =
+          'rel=0&modestbranding=1&controls=1&showinfo=0&iv_load_policy=3'
+
+        const videoId = placeholder.dataset.id
+        const iframe = document.createElement('iframe')
+        iframe.src = `https://www.youtube-nocookie.com/embed/xh09rBdW47o?autoplay=1&${variables}`
+        iframe.frameBorder = '0'
+        iframe.className = 'w-100 h-100' // fills ratio container
+        iframe.allow =
+          'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+        iframe.allowFullscreen = true
+
+        iframe.style.position = 'absolute'
+        iframe.style.top = '0'
+        iframe.style.left = '0'
+        iframe.style.width = '100%'
+        iframe.style.height = '100%'
+        iframe.style.borderRadius = '0.25rem'
+
+        placeholder.innerHTML = ''
+        placeholder.appendChild(iframe)
+      })
     })
     .catch(err => console.error('erro no ficheiro social.txt:', err))
 }
