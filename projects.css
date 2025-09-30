@@ -44,7 +44,7 @@ iframe {
 .play-button {
   position: absolute;
   top: 85%;
-  left: 100%;
+  left: 50%;
   transform: translate(-50%, -50%);
   font-size: 3rem;
   color: white;
@@ -53,6 +53,7 @@ iframe {
   pointer-events: none;
   user-select: none;
   transition: opacity 0.3s ease;
+  width: 10%;
 }
 
 .video-placeholder:hover .play-button {
