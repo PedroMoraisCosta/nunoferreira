@@ -131,6 +131,7 @@ function buildArchitecture (callback) {
         .then(res => res.text())
         .then(data => {
           servicesectionEl.innerHTML = data
+          loadLanguage(getLanguage())
         })
         .catch(err =>
           console.error('Erro ao carregar services-section.html', err)
