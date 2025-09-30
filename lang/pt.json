@@ -27,7 +27,7 @@
     "services-general_title": "Manutenção Geral",    
     "services-restores_title": "Todo tipo de Restauros",
 
-
+    "contacts_title": "Entre em contato connosco",
     "contactform-title":"formulário de contato",
     "contactform-name":"Nome",
     "contactform-email":"Email",
@@ -112,7 +112,9 @@
    
 
     "projects-video":"videos",
+    "projects_title": "Descubra alguns dos nossos últimos projetos",
 
+    "social_title": "As nossas ajudas na comunidade social",
     "social-titulo-1": "Festa de Natal Solidária 2021",
     "social-descricao-1":"Um momento mágico de partilha e esperança, onde cada criança é abraçada pelo espírito Natalício.",
     "social-titulo-2": "Natal Solidário",

@@ -27,6 +27,7 @@
     "services-general_title": "General Maintenance",    
     "services-restores_title": "All Types of Restorations",
 
+    "contacts_title": "Get in touch with us",
     "contactform-title":"Contact us form",
     "contactform-name":"Name",
     "contactform-email":"Email",
@@ -109,16 +110,10 @@
 
     
     
-   
-    
-    
-    
-    
-
-    
-
     "projects-video":"Video Projects",
+    "projects_title": "Discover some of our latest projects",
 
+    "social_title": "Our contributions to the social community",
     "social-titulo-1": "Solidarity Christmas Party 2021",
     "social-descricao-1": "A magical moment of sharing and hope, where every child is embraced by the Christmas spirit.",
     "social-titulo-2": "Solidarity Christmas",
