@@ -32,6 +32,4 @@ async function initProjectsImages () {
       break
     }
   }
-
-  loadLanguage(getLanguage())
 }
