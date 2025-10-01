@@ -151,6 +151,9 @@ function buildArchitecture (callback) {
         .then(res => res.text())
         .then(data => {
           projectsectionEl.innerHTML = data
+          if (typeof initProjectsImages === 'function') {
+            initProjectsImages()
+          }
           if (typeof initProjectsVideos === 'function') {
             initProjectsVideos()
           }

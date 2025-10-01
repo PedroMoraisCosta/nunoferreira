@@ -1,5 +1,5 @@
 function initProjectsVideos () {
-  const filePath = './assets/projetos/videos/videos.txt'
+  const filePath = './assets/projetos/videos.txt'
 
   function extractVideoId (link) {
     const match =
