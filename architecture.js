@@ -99,6 +99,7 @@ function buildArchitecture (callback) {
         .then(res => res.text())
         .then(data => {
           indexSectionEl.innerHTML = data
+          loadLanguage(getLanguage())
         })
         .catch(err => console.error('Erro ao carregar index-section.html', err))
     )
@@ -114,6 +115,7 @@ function buildArchitecture (callback) {
         .then(res => res.text())
         .then(data => {
           companySectionEl.innerHTML = data
+          loadLanguage(getLanguage())
         })
         .catch(err =>
           console.error('Erro ao carregar company-section.html', err)
@@ -131,6 +133,7 @@ function buildArchitecture (callback) {
         .then(res => res.text())
         .then(data => {
           servicesectionEl.innerHTML = data
+          loadLanguage(getLanguage())
         })
         .catch(err =>
           console.error('Erro ao carregar services-section.html', err)
@@ -148,6 +151,9 @@ function buildArchitecture (callback) {
         .then(res => res.text())
         .then(data => {
           projectsectionEl.innerHTML = data
+          if (typeof initProjectsImages === 'function') {
+            initProjectsImages()
+          }
           if (typeof initProjectsVideos === 'function') {
             initProjectsVideos()
           }

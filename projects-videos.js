@@ -1,5 +1,5 @@
 function initProjectsVideos () {
-  const filePath = './assets/videos/projetos/videos.txt'
+  const filePath = './assets/projetos/videos.txt'
 
   function extractVideoId (link) {
     const match =
@@ -33,7 +33,7 @@ function initProjectsVideos () {
 
         const thumb = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`
         col.innerHTML = `
-          <div class="ratio ratio-16x9 video-placeholder" data-id="${videoId}">
+          <div class="nf-team-card ratio ratio-16x9 video-placeholder" data-id="${videoId}">
             <img src="${thumb}" alt="Video thumbnail" class="img-fluid rounded">
             <div class="play-button">▶</div>
           </div>
@@ -69,7 +69,7 @@ function initProjectsVideos () {
         placeholder.innerHTML = ''
         placeholder.appendChild(iframe)
       })
-        loadLanguage(getLanguage())
+      loadLanguage(getLanguage())
     })
     .catch(err => {
       console.error('Erro ao carregar videos.txt:', err)
