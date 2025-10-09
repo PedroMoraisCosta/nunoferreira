@@ -71,8 +71,6 @@ function initSocialSection () {
         if (carouselEl) new bootstrap.Carousel(carouselEl)
       })
 
-      console.log('✅ Social section loaded with team carousels.')
-
       loadLanguage(getLanguage())
 
       const container = document.getElementById('video-gallery')
